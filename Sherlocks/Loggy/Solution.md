@@ -76,6 +76,8 @@ I tried searching for any language mentions using the strings command.
 
 **Explanation:**  
 
+![image](https://github.com/user-attachments/assets/6e902c56-4b84-4474-91bb-6f867635e02f)
+
 ![image](https://github.com/user-attachments/assets/a02f7606-47c0-47c5-a628-ef91410a7f75)
 
 ---
