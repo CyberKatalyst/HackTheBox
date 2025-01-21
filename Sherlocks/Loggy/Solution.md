@@ -100,27 +100,3 @@ I tried searching for any language mentions using the strings command.
 
 ![image](https://github.com/user-attachments/assets/29629a25-6061-488e-9694-d7a781b7cc2e)
 
-
----
-
-## 2. What programming language (and version) is this malware written in?
-
-**Answer:** `Golang 1.22.3`
-
-**Explanation:**  
-
----
-
-## 2. What programming language (and version) is this malware written in?
-
-**Answer:** `Golang 1.22.3`
-
-**Explanation:**  
-
-I found several mentions of "Go runtime" keywords. Therefore, I used another command with regex to dig out the version of Go.
-
-![image](https://github.com/user-attachments/assets/1b4268bb-c356-4738-a86e-a637cc8e670a)
-
-
-
----
