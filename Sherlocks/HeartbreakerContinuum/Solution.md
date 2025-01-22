@@ -6,7 +6,7 @@
 
 **Explanation:**  
 
-![SHA256 Hash Explanation](https://github.com/user-attachments/assets/1e517492-8815-4a0d-880f-4d649676efcf)
+![image](https://github.com/user-attachments/assets/dd4d600c-93db-4124-9bbb-5bc241cd9e77)
 
 ---
 
@@ -16,7 +16,8 @@
 
 **Explanation:**  
 
-![image](https://github.com/user-attachments/assets/066a87cb-56b2-4e20-9f70-64640141045f)
+![image](https://github.com/user-attachments/assets/d2cde1e0-b288-4244-af6e-35b3c580a680)
+
 
 ---
 
@@ -26,7 +27,7 @@
 
 **Explanation:**  
 
-![image](https://github.com/user-attachments/assets/5b56e912-bd90-4d96-82f4-c215d519424b)
+![image](https://github.com/user-attachments/assets/0f3b5cf6-0eb3-4edc-a152-e3efe8804acf)
 
 ---
 
@@ -36,7 +37,7 @@
 
 **Explanation:**  
 
-![image](https://github.com/user-attachments/assets/f886df8d-421f-455e-a5b5-78af45fcd7e9)
+![image](https://github.com/user-attachments/assets/0d1a613f-e75b-40a7-94a2-f515d9677984)
 
 ---
 
@@ -46,19 +47,7 @@
 
 **Explanation:**  
 
-![image](https://github.com/user-attachments/assets/6a73d0d6-f8f1-4bdf-a22c-83d72a559cb2)
-
-The obfuscated code begins at offset `2C74`, which is 4 bytes after `2C70` (where the string `$sCrt` begins).  
-
-To determine this:  
-- Open the content of the code.txt file in [Hex Editor](https://hexed.it/).  
-- Search for the Hex cell of `$sCrt`, which is `24 73 43 72`.  
-- The obfuscated code in this case begins at offset 2c74, which is 4 bytes after 2c70 (where the string $sCr begins), therefore the offset is `2C74`.
-
-![image](https://github.com/user-attachments/assets/a053545c-343f-4378-9d85-414ba214ca0a)
-
-![image](https://github.com/user-attachments/assets/b9ed6797-9897-4858-a5c8-167312209e5f)
-
+![image](https://github.com/user-attachments/assets/4f692cea-ca3d-4607-bcaf-80f8cc76efd8)
 
 ---
 
@@ -68,7 +57,11 @@ To determine this:
 
 **Explanation:**  
 
-![image](https://github.com/user-attachments/assets/bebf3ae4-a820-4c7a-a3cd-bd63a6978ae2)
+We can get a hint using the "strings" command.
+
+![image](https://github.com/user-attachments/assets/bb709a2d-4d13-4117-a9b3-5c86ec5a486b)
+
+![image](https://github.com/user-attachments/assets/038518af-c67d-41af-9de1-b41b997bf8a0)
 
 ---
 
@@ -80,7 +73,8 @@ To determine this:
 
 The value of `$sCrt` was decoded using [CyberChef](https://cyberchef.org/).
 
-![image](https://github.com/user-attachments/assets/0a4ad2fb-a72a-4886-9ebf-2e3c363320fe)
+![image](https://github.com/user-attachments/assets/e686e781-7811-470c-8e03-d68151da468e)
+
 
 ---
 
@@ -90,9 +84,15 @@ The value of `$sCrt` was decoded using [CyberChef](https://cyberchef.org/).
 
 **Explanation:**
 
-![image](https://github.com/user-attachments/assets/2ca03aa0-519b-44e5-8169-2ca775a615b7)
+By scrolling down we will get the asked IP addresses.
 
-![image](https://github.com/user-attachments/assets/f2d97d5d-f067-4669-a388-c33bb4bc412a)
+![image](https://github.com/user-attachments/assets/c2f37731-bf20-4303-8a3a-28570e7148ec)
+
+![image](https://github.com/user-attachments/assets/fef59ffa-9e56-48ae-9c72-684e2acf9928)
+
+Or we can use the exreact IP method instead.
+
+![image](https://github.com/user-attachments/assets/75c6f069-7910-417e-a9a8-2e56c2c7e5ec)
 
 ---
 
@@ -102,7 +102,11 @@ The value of `$sCrt` was decoded using [CyberChef](https://cyberchef.org/).
 
 **Explanation:**
 
-![image](https://github.com/user-attachments/assets/5d9fe242-e80f-47b2-bb34-d42dbf118141)
+The staging directory can be seen in the deobfuscated code being assigned to a variable named $targetDir.
+
+![image](https://github.com/user-attachments/assets/65b57577-50cc-4dc6-8506-878364f0bfa4)
+
+
 
 ---
 
@@ -119,4 +123,5 @@ What is the password utilized to exfiltrate the collected files through the file
 
 **Explanation:**  
 
-![image](https://github.com/user-attachments/assets/587d817b-6524-45d5-bdea-7b9d36045464)
+![image](https://github.com/user-attachments/assets/465ca635-451a-4d3d-b368-179b48c3ee35)
+
